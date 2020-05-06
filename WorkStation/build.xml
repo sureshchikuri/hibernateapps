@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="project" default="execute">
+
+	<target name="clean">
+
+		<delete dir="${basedir}/build">
+		</delete>
+		<mkdir dir="${basedir}/build"/>
+	</target>
+
+	<path id="master-classpath">
+		<fileset dir="${basedir}/WebRoot/WEB-INF/lib">
+			<include name="*.jar"/>
+		</fileset>
+		
+	</path>
+
+	<target name="compile" depends="clean" >
+		<javac srcdir="${basedir}/src" destdir="${basedir}/build" 
+        	classpathref="master-classpath">
+		</javac>
+	</target>
+
+	<target name="execute" depends="compile">
+		
+	</target>
+
+</project>
+

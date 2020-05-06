@@ -1,0 +1,35 @@
+2016-01-31 19:30:01,134(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Automatic session close at end of transaction: disabled
+2016-01-31 19:30:01,138(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- JDBC batch size: 15
+2016-01-31 19:30:01,142(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- JDBC batch updates for versioned data: disabled
+2016-01-31 19:30:01,146(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Scrollable result sets: enabled
+2016-01-31 19:30:01,150(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- JDBC3 getGeneratedKeys(): disabled
+2016-01-31 19:30:01,158(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Connection release mode: auto
+2016-01-31 19:30:01,170(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Default batch fetch size: 1
+2016-01-31 19:30:01,174(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Generate SQL with comments: disabled
+2016-01-31 19:30:01,178(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Order SQL updates by primary key: disabled
+2016-01-31 19:30:01,182(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Order SQL inserts for batching: disabled
+2016-01-31 19:30:01,182(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] createQueryTranslatorFactory- Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2016-01-31 19:30:01,202(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.hql.ast.ASTQueryTranslatorFactory] <init>- Using ASTQueryTranslatorFactory
+2016-01-31 19:30:01,206(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Query language substitutions: {}
+2016-01-31 19:30:01,206(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- JPA-QL strict compliance: disabled
+2016-01-31 19:30:01,210(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Second-level cache: enabled
+2016-01-31 19:30:01,214(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Query cache: disabled
+2016-01-31 19:30:01,214(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] createCacheProvider- Cache provider: org.hibernate.cache.NoCacheProvider
+2016-01-31 19:30:01,218(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Optimize cache for minimal puts: disabled
+2016-01-31 19:30:01,222(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Structured second-level cache entries: disabled
+2016-01-31 19:30:01,256(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Echoing all SQL to stdout
+2016-01-31 19:30:01,260(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Statistics: disabled
+2016-01-31 19:30:01,264(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Deleted entity synthetic identifier rollback: disabled
+2016-01-31 19:30:01,267(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Default entity-mode: pojo
+2016-01-31 19:30:01,270(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.cfg.SettingsFactory] buildSettings- Named query checking : enabled
+2016-01-31 19:30:01,394(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.impl.SessionFactoryImpl] <init>- building session factory
+2016-01-31 19:30:02,759(dd/mm/yyyy hh:mm) [INFO] [org.hibernate.impl.SessionFactoryObjectFactory] addInstance- Not binding factory to JNDI, no JNDI name configured
+2016-01-31 19:30:06,287(dd/mm/yyyy hh:mm) [INFO] [com.vcs.struts.dao.FloorDaoImpl] isFloorExist- isFloorExist metod started
+2016-01-31 19:31:19,981(dd/mm/yyyy hh:mm) [WARN] [org.hibernate.util.JDBCExceptionReporter] logExceptions- SQL Error: 942, SQLState: 42000
+2016-01-31 19:31:19,983(dd/mm/yyyy hh:mm) [ERROR] [org.hibernate.util.JDBCExceptionReporter] logExceptions- ORA-00942: table or view does not exist
+
+2016-01-31 19:31:31,727(dd/mm/yyyy hh:mm) [ERROR] [com.vcs.struts.dao.FloorDaoImpl] isFloorExist- Isfloorexist insertion exceptionorg.hibernate.exception.SQLGrammarException: could not execute query
+2016-01-31 19:32:42,567(dd/mm/yyyy hh:mm) [WARN] [org.hibernate.util.JDBCExceptionReporter] logExceptions- SQL Error: 942, SQLState: 42000
+2016-01-31 19:32:42,567(dd/mm/yyyy hh:mm) [ERROR] [org.hibernate.util.JDBCExceptionReporter] logExceptions- ORA-00942: table or view does not exist
+
+2016-01-31 19:32:42,572(dd/mm/yyyy hh:mm) [WARN] [org.apache.struts.action.RequestProcessor] processException- Unhandled Exception thrown: class org.hibernate.exception.SQLGrammarException

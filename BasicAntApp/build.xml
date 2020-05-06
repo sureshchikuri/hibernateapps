@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="BasicAntApp" default="execute">
+
+    <target name="clean">
+    	
+    	<delete dir="${basedir}/build"/>
+    	<delete dir="${basedir}/build/jar"/>
+    	
+        <mkdir dir="${basedir}/build"/>
+    	<mkdir dir="${basedir}/build/jar"/>
+    	
+    </target>
+	
+	<target name="compile" depends="clean">
+	
+	<javac srcdir="${basedir}/src" destdir="${basedir}/build"/>
+	</target>
+
+	<target name="package" depends="compile">
+	<jar destfile="${basedir}/build/jar/BasicAnt.jar" basedir="${basedir}/build" ></jar>
+		
+		<manifest>
+		<attribute name="Main-class" value="com.vcs.test.Test" />
+		</manifest>
+	</target>
+	
+     <target name="execute" depends="package">
+		<java classname="com.vcs.test.Test" classpath="${basedir}/build" />
+
+    </target>
+
+</project>

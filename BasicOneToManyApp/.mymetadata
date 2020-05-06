@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="BasicOneToManyApp"
+  id="myeclipse.1390118735089"
+  context-root="/BasicOneToManyApp"
+  j2ee-spec="5.0"
+  archive="BasicOneToManyApp.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

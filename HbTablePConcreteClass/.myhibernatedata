@@ -1,0 +1,24 @@
+#MyEclipse Hibernate Properties
+#Sun Sep 20 05:51:43 PDT 2015
+sessionFactoryName=com.vcs.util.HibernateUtil
+genBasicCompId=true
+profile=
+daoSFId=
+version=3.3
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=true
+reSettingsFile=/HbTablePConcreteClass/hibernate.reveng.xml
+configFile=/HbTablePConcreteClass/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true

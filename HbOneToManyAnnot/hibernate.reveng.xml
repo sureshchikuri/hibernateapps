@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="DEPT" schema="SYSTEM">
+		<primary-key>
+			<key-column name="DNO" property="deptNo" />
+		</primary-key>
+		<column name="DNAME" property="deptName"></column>
+	</table>
+	<table name="EMP" schema="SYSTEM">
+		<primary-key>
+			<key-column name="ENO" property="empNo" />
+		</primary-key>
+		<column name="ENAME" property="empName"></column>
+		<column name="DNO"></column>
+	</table>
+</hibernate-reverse-engineering>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="BasicWebProject"
+  id="myeclipse.1390766182589"
+  context-root="/BasicWebProject"
+  j2ee-spec="5.0"
+  archive="BasicWebProject.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
