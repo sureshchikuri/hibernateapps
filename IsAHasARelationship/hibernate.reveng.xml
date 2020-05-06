@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="EMPLOYEE11" schema="SYSTEM">
+		<primary-key>
+			<key-column name="ENO" property="EmployeeNo" />
+		</primary-key>
+		<column name="ENAME" property="EmployeeName"></column>
+		<column name="STREET" property="Street"></column>
+		<column name="PIN" property="Pin"></column>
+	</table>
+	<table name="STUDENT11" schema="SYSTEM">
+		<primary-key>
+			<key-column name="SNO" property="StudentNo" />
+		</primary-key>
+		<column name="SNAME" property="StudentName"></column>
+		<column name="STREET" property="Street"></column>
+		<column name="PIN" property="Pin"></column>
+	</table>
+</hibernate-reverse-engineering>
